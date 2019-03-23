@@ -13,7 +13,7 @@ go get -u github.com/0to1a/GoArtisan
 For installation on command line, you can use:
 
 ```
-go install github.com/0to1a/GoArtisan
+GOBIN=/usr/local/bin/ go install github.com/0to1a/GoArtisan
 ```
 
 ## Building
