@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"./Controller"
+	"github.com/0to1a/GoArtisan/Controller"
 	"github.com/fatih/color"
 )
 
@@ -13,6 +13,7 @@ const (
 	version = "1.0.0"
 )
 
+// PrintStatus to print information or command list for GoArtisan.
 func PrintStatus() {
 	green := color.New(color.FgGreen).SprintFunc()
 	yellow := color.New(color.FgYellow).SprintFunc()

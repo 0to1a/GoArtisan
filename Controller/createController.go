@@ -125,6 +125,7 @@ func RandStringLower(n int) string {
 `
 )
 
+// CreatePrintHelp to print command list for Create function.
 func CreatePrintHelp() {
 	green := color.New(color.FgGreen).SprintFunc()
 	yellow := color.New(color.FgYellow).SprintFunc()
@@ -146,6 +147,9 @@ func CreatePrintHelp() {
 	fmt.Printf("  %s %s\n", green("-l, --less  "), "Less project structure based")
 }
 
+// CreateFolder is create project folder with some files in framework.
+//
+// args value contains some argument or option to run this command.
 func CreateFolder(args []string) {
 	var (
 		data       []byte
